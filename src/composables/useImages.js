@@ -18,7 +18,6 @@ export default function useImage() {
         if(data) {
             upload(data)
         }
-        console.log(url);
     }
 
     const image = computed(() => {
